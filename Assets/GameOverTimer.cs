@@ -43,6 +43,7 @@ public class GameOverTimer : MonoBehaviour
         // Check actual final limit
         if (currentTimer >= maxTimeLimit)
         {
+	        currentTimer = 0;
 	        EndGame();
         }
     }
